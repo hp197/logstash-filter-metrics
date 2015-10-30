@@ -56,12 +56,6 @@ require "logstash/namespace"
 # through logstash:
 # [source,ruby]
 # ----
-#     input {
-#       generator {
-#         type => "generated"
-#       }
-#     }
-#
 #     filter {
 #       if [type] == "generated" {
 #         metrics {
